@@ -480,8 +480,8 @@ body {
 /* google-play & app-store */
 /* ^^^^^^^^^^^^^^^^^^^^^^^ */
 
-
-
+/* vvvvvvvvvvvvvvvvvv */
+/* страница контактов */
 .contacts {
     display: flex;
     margin-top: 71px;
@@ -494,16 +494,35 @@ body {
     opacity: 0.9;
     background-color: #ffffff;
     border: solid 1px #9c9c9c;
+    text-decoration: none;
 }
 .contacts img {
     margin-left: 166px;
     margin-top: 48px;
+    margin-bottom: 34px;
     width: 38px;
     height: 48px;
 }
-
-
-
+.contacts h3 {
+    font-size: 21.9px;
+    font-weight: 700;
+    text-align: center;
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.contacts p {
+    font-size: 13.9px;
+    font-weight: 700;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.contacts span {
+    color: #6c6c6c;
+}
+/* страница контактов */
+/* ^^^^^^^^^^^^^^^^^^ */
 
 /* vvvvvvvvvvvv */
 /* подвал сайта */
