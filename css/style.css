@@ -323,7 +323,6 @@ body {
 }
 /* ^^^^^^^^^^^^^^^ */
 
-
 /* vvvvvvvvvvvvvvv */
 .trending {
     position: relative;
@@ -350,9 +349,9 @@ body {
     justify-content: space-between;
 }
 .trending-menu h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
 }
 .trending-menu .explore-all {
     margin-top: 18px;
@@ -527,7 +526,8 @@ body {
 /* страница контактов */
 /* ^^^^^^^^^^^^^^^^^^ */
 
-
+/* vvvvvvvvvvvvvvvvvvvvvvv */
+/* страница покупки товара */
 .product-menu {
     padding: 30px 360px;
     background-color: #f6f6f6;
@@ -539,25 +539,22 @@ body {
 }
 .product-menu a {
     text-decoration: none;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1.8px;
-/*  text-align: center;*/
-  color: #7e7e7e;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    color: #7e7e7e;
 }
 .product-menu .active-link { 
-  color: #303030;
+    color: #303030;
 }
 .product-block {
     padding: 71px 132px 125px 98px;
     display: flex;
     justify-content: space-between;
-    
 }
 .product-img {
     width: 570px;
     height: 570px;
-    border: 1px solid black;
     margin-bottom: 11px;
 }
 .product-views {
@@ -568,17 +565,17 @@ body {
     width: 70px;
     height: 70px;
     margin-left: 10px;
-    border: 1px solid black;
 }
 .product-buy {
     width: 510px;
-    border: 1px solid black;
 }
 .product-buy h1 {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
     color: #303030;
+    margin-top: 47px;
+    margin-bottom: 23px;
 }
 .product-buy h3 {
     font-size: 18px;
@@ -588,23 +585,56 @@ body {
     text-align: center;
     color: #d25348;
     text-transform: uppercase;
+    margin-bottom: 36px;
 }
-.price {
-  font-family: Gotham;
-  font-size: 72px;
-  font-weight: 300;
-  line-height: 72px;
-  text-align: center;
-  color: #303030;
+.product-buy .price {
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+    color: #303030;
+    margin-bottom: 31px;
 }
-
-/*
-.price .text-style-1 {
-  font-size: 36px;
-  line-height: 1.33;
+.price span {
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 72px;
 }
-*/
-
+.product-buy a {
+    display: block;
+    width: 510px;
+    height: 71px;
+    border-radius: 35px;
+    background-color: #dd5d4a;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(48, 48, 48, 0.35);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 49px;
+}
+.product-buy p {
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #303030;
+}
+.product-buy a:active {
+    box-shadow: 0 0 4.9px 0.2px rgba(48, 48, 48, 0.35);
+    position: relative;
+    top: 3px;
+}
+/* страница покупки товара */
+/* ^^^^^^^^^^^^^^^^^^^^^^^ */
 
 /* vvvvvvvvvvvv */
 /* подвал сайта */
