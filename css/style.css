@@ -29,6 +29,9 @@ body {
   height: 360px;
   background-color: #f5f5f5;
 }
+.product-header {
+  height: 119px;
+}
 .products-header h1 {
   margin-top: 168px;
   font-size: 62px;
@@ -524,6 +527,85 @@ body {
 /* страница контактов */
 /* ^^^^^^^^^^^^^^^^^^ */
 
+
+.product-menu {
+    padding: 30px 360px;
+    background-color: #f6f6f6;
+}
+.product-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.product-menu a {
+    text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+/*  text-align: center;*/
+  color: #7e7e7e;
+}
+.product-menu .active-link { 
+  color: #303030;
+}
+.product-block {
+    padding: 71px 132px 125px 98px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.product-img {
+    width: 570px;
+    height: 570px;
+    border: 1px solid black;
+    margin-bottom: 11px;
+}
+.product-views {
+    display: flex;
+    justify-content: center;
+}
+.product-view {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.product-buy {
+    width: 510px;
+    border: 1px solid black;
+}
+.product-buy h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #303030;
+}
+.product-buy h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #d25348;
+    text-transform: uppercase;
+}
+.price {
+  font-family: Gotham;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 72px;
+  text-align: center;
+  color: #303030;
+}
+
+/*
+.price .text-style-1 {
+  font-size: 36px;
+  line-height: 1.33;
+}
+*/
+
+
 /* vvvvvvvvvvvv */
 /* подвал сайта */
 .footer {
@@ -626,3 +708,10 @@ body {
 }
 /* подвал сайта */
 /* ^^^^^^^^^^^^ */
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
