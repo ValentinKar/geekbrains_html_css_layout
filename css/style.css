@@ -769,6 +769,11 @@ body {
     color: #6c6c6c;
     text-transform: uppercase;
 }
+.copyright div {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
 /* подвал сайта */
 /* ^^^^^^^^^^^^ */
 
